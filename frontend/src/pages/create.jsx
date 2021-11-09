@@ -75,7 +75,7 @@ class Create extends Component {
       <div style={{ marginTop: 20 }}>
         <h3>Create New Record</h3>
         <form onSubmit={this.onSubmit}>
-          <div className="form-group">
+          <div className="text-center bg-green-50">
             <label>Name of the person: </label>
             <input
               type="text"

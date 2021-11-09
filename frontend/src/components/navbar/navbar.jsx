@@ -1,11 +1,6 @@
 import React from "react";
- 
-// We import bootstrap to make our application look better.
- 
-// We import NavLink to utilize the react router.
 import { NavLink } from "react-router-dom";
  
-// Here, we display our Navbar
 const Navbar = () => {
   return (
     <div>
@@ -28,7 +23,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/create">
+              <NavLink className="nav-link" to="/sign-up">
                 Create Record
               </NavLink>
             </li>
