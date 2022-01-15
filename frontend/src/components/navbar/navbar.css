@@ -1,0 +1,15 @@
+.company-logo {
+    width: 30px;
+}
+
+.navbar-container {
+    display: flex;
+}
+
+.navbar-left {
+
+}
+
+.navbar-right {
+    margin-left: auto;
+}

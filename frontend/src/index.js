@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Component and Page Imports
 // import Edit from "./components/edit";
-import Create from "./pages/create";
+import Create from "./pages/create-record";
 import Login from "./pages/login";
 import Dashboard from "./pages/dashboard";
 // import RecordList from "./components/recordList";

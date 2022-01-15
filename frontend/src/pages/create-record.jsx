@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Navbar from '../components/navbar/navbar';
 
 class Create extends Component {
   constructor(props) {
@@ -73,6 +74,7 @@ class Create extends Component {
   render() {
     return (
       <div style={{ marginTop: 20 }}>
+        <Navbar />
         <h3>Create New Record</h3>
         <form onSubmit={this.onSubmit}>
           <div className="text-center bg-green-50">
